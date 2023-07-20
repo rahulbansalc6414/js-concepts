@@ -38,3 +38,12 @@ function avg(...num)
 
     return sum / num.length;
 }
+
+const obj1 = {
+    name1: "Rahul",
+    age: 26
+}
+
+const obj2 = { ...obj1, name1: 'Ram' };
+
+console.log(obj2);
